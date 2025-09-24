@@ -26,7 +26,7 @@ author:
   avatar           : "profile.png"
   name             : "Jingjing Wu"
   pronouns         : # example: "she/her"  
-  bio              : "Short biography for the left-hand sidebar"
+  bio              : "Postdoctoral Associate in Dr. Stadler’s lab. Research spans wastewater surveillance for public health, wastewater treatment, and resource recovery for sustainability."
   location         : "Houston, TX"
   employer         : "Rice University"
   uri              : # URL
@@ -63,7 +63,7 @@ author:
   # keybase          : # Username
   # instagram        : # Username
   # lastfm           : # Username
-  linkedin         : # Username
+  linkedin         : # "https://www.linkedin.com/in/jingjingwu0110"
   # mastodon         : # URL
   # medium           : # URL
   # pinterest        : # Username
