@@ -11,27 +11,42 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+* Ph.D in Civil and Environmental Engineering, Clarkson University, 2021
+* M.S. in Civil and Environmental Engineering, Clarkson University, 2015
+* B.S. in Biological Science, Ocean University of China, 2012
 
-Work experience
+Professional experience
 ======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+* 2022-Present: Postdoctoral Associate
+  * Rice University
+  * Department of Civil and Environmental Engineering
+  * Advisor: Dr. Lauren B. Stadler
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+* 2021-2022: Postdoctoral Research Associate
+  * Clarkson University
+  * Department of Civil and Environmental Engineering
+  * Advisor: Dr. Shane W. Rogers
 
-* Summer 2015: Research Assistant
+* 2022.3-2022.5: Visiting Scientist
+  * Bigelow Laboratory for Ocean Sciences
+  * Supervisor: Dr. Nichole N. Price
+
+* 2013-2021: Graduate Research Assistant
+  * Clarkson University
+  * Department of Civil and Environmental Engineering
+  * Advisor: Dr. Shane W. Rogers
+
+* 2012.3‑2012.6: Undergraduate Research Assistant
   * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
+  * Department of Ecology
+  * Advisor: Dr.
+    
+* 2012.3‑2012.6: Undergraduate Research Assistant
+  * Ocean University of China
+  * Department of Biology
+  * Advisor: Dr. Chenguang Liu
+
+<!--
 Skills
 ======
 * Skill 1
@@ -40,6 +55,7 @@ Skills
   * Sub-skill 2.2
   * Sub-skill 2.3
 * Skill 3
+-->
 
 Publications
 ======
