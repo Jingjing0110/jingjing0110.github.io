@@ -37,14 +37,12 @@ Professional experience
   * Advisor: Dr. Shane W. Rogers
 
 * 2012.3‑2012.6: Undergraduate Research Assistant
-  * GitHub University
+  * Ocean University of China
   * Department of Ecology
-  * Advisor: Dr.
     
-* 2012.3‑2012.6: Undergraduate Research Assistant
+* 2010‑2012: Undergraduate Research Assistant
   * Ocean University of China
   * Department of Biology
-  * Advisor: Dr. Chenguang Liu
 
 <!--
 Skills
