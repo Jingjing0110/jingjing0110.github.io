@@ -10,4 +10,3 @@ paperurl: 'https://pubs.acs.org/doi/abs/10.1021/acsestwater.5c00569'
 citation: 'Wu et al. (2024). &quot;Sensitivity, throughput, and cost analysis of concentration methods for multitarget pathogen wastewater monitoring.&quot; <i>ACS ES&T Water</i>. 5(9), 5531–5541.'
 ---
 
-The contents above will be part of a list of publications, if the user clicks the link for the publication than the contents of section will be rendered as a full page, allowing you to provide more information about the paper for the reader. When publications are displayed as a single page, the contents of the above "citation" field will automatically be included below this section in a smaller font.
