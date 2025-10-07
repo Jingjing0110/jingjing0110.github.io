@@ -83,10 +83,11 @@ author:
 publication_category:
   books:
     title: 'Books'
-  nutrient:
-    title: 'Sustainable Nutrient Management'    
   surveillance:
     title: 'Wastewater Surveillance'
+  nutrient:
+    title: 'Sustainable Nutrient Management'    
+  
 
 # Site Settings
 teaser                   :  # filename of teaser fallback teaser image placed in /images/ for social media previews
