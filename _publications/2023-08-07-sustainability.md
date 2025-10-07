@@ -1,0 +1,13 @@
+---
+title: "A comparison of multiple macroalgae cultivation systems and end-use strategies of <i>Saccharina latissima</i> and <i>Gracilaria tikvahiae</i> based on techno-economic analysis and life cycle assessment"
+collection: publications
+category: nutrient
+permalink: /publication/2023-08-07-sustainability
+excerpt: 'This study assesses the economic and environmental performance of various cultivation, processing, and end-use strategies for Saccharina latissima and Gracilaria tikvahiae. It demonstrates the benefits of co-cultivation and shared infrastructure and identifies areas for process optimization.'
+date: 2023-08-07
+venue: 'Sustainability'
+paperurl: 'https://www.mdpi.com/2071-1050/15/15/12072'
+citation: 'Wu et al. (2023). &quot; A comparison of multiple macroalgae cultivation systems and end-use strategies of Saccharina latissima and Gracilaria tikvahiae based on techno-economic analysis and life cycle assessment.&quot; <i>Sustainability</i>. 15 (15), 12072.'
+---
+
+Macroalgae can be processed into various products with the potential to substitute land-based crops; their cultivation can bioextract nutrients from coastal waters. This study investigated the economic cost and environmental impacts of multiple seaweed cultivation platforms, cultivation strategies, and processing/end-use strategies through techno-economic analysis (TEA) and life cycle assessment (LCA) with a focus on Saccharina latissima and Gracilaria tikvahiae. Cultivation platforms included single-layer longline, dual-layer longline, single-layer strip, and dual-layer strip systems. Processing/end-use products included seaweed to biofuel, dried sea vegetables, marketable commercial fertilizer, and animal feed. Economic and environmental costs decreased with dual-layer and strip cultivation systems. Cultivation costs were highest using the common single-layer longline system ($4.44 kg−1 dry weight (dw) S. latissima and $6.73 kg−1 dw G. tikvahiae when cultivated on rotation). The use of the dual-layer strip system reduced cultivation costs to $2.19 kg−1 dw for S. latissima and $3.43 kg−1 dw for G. tikvahiae. Seaweed drying was the major contributor to economic and environmental costs for macroalgae processing. Yet, all scenarios achieved environmental benefits for marine eutrophication. The best environmental performance was observed when biomass was processed to dry sea vegetables, assuming the offset of land-based vegetable production, or used as biofeedstock for anaerobic digestion for combined heat and power.
