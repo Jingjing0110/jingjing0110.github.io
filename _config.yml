@@ -83,10 +83,10 @@ author:
 publication_category:
   books:
     title: 'Books'
-  manuscripts:
-    title: 'Journal Articles'    
-  conferences:
-    title: 'Conference Papers'
+  nutrient:
+    title: 'Sustainable Nutrient Management'    
+  surveillance:
+    title: 'Wastewater Surveillance'
 
 # Site Settings
 teaser                   :  # filename of teaser fallback teaser image placed in /images/ for social media previews
