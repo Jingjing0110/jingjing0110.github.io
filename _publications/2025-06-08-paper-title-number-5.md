@@ -6,7 +6,7 @@ permalink: /publication/2024-02-17-paper-title-number-4
 excerpt: 'This paper is about a famous math equation, $$E=mc^2$$'
 date: 2024-02-17
 venue: 'Environmental Science & Technology'
-paperurl: '[http://academicpages.github.io/files/paper3.pdf](https://pubs.acs.org/doi/abs/10.1021/acs.est.4c05344)'
+paperurl: 'https://pubs.acs.org/doi/abs/10.1021/acs.est.4c05344'
 citation: 'Wu et al. (2024). &quot;Multiplexed detection, partitioning, and persistence of wild-type and vaccine strains of measles, mumps, and rubella viruses in wastewater.&quot; <i>Environmental Science & Technology</i>. 1(3).'
 ---
 
