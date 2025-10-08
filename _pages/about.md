@@ -32,7 +32,6 @@ For those users that need more advanced functionality, the template also support
 - [Plotly](https://plotly.com/javascript/) for plotting
 -->
 
-# Add figure
-Example: editing a Markdown file for a talk
-![Editing a Markdown file for a talk](/images/editing-talk.png)
-and you can always [ask a question on GitHub](https://github.com/academicpages/academicpages.github.io/discussions). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful.
+Outline of my research  interests
+![research  interests](/images/Research_interest_outline.png)
+My ultimate goal of research is to improve the utility of wastewater for improving public health and sustainability.
