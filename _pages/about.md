@@ -32,5 +32,6 @@ For those users that need more advanced functionality, the template also support
 - [Plotly](https://plotly.com/javascript/) for plotting
 -->
 
-[research  interests](/images/Research_interest_outline.png)
 My ultimate goal of research is to improve the utility of wastewater for improving public health and sustainability.
+[research](/images/Research_interest_outline.png)
+
