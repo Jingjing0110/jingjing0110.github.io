@@ -1,9 +1,9 @@
 ---
-title: "CEVE 316 Urban Water Systems Lab ‑ Process Modeling Module"
+title: "CE 479/579 Water and Wastewater Treatment Design"
 collection: teaching
-type: "Undergraduate course"
-permalink: /teaching/2025-spring-teaching
-venue: "Rice University"
-date: 2025-02-12
-location: "Houston, TX"
+type: "Undergraduate and graduate course"
+permalink: /teaching/2018-fall-teaching
+venue: "Clarkson University"
+date: 2018-09-01
+location: "Potsdam, NY"
 ---
