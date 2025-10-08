@@ -9,6 +9,9 @@ redirect_from:
 
 {% include base_path %}
 
+Here you can find a selection of my publications and presentations.  
+A full version of my CV is available for [download (PDF)](/files/JingjingWu_CV.pdf).
+
 Education
 ======
 * Ph.D in Civil and Environmental Engineering, Clarkson University, 2021
@@ -55,13 +58,13 @@ Skills
 * Skill 3
 -->
 
-Publications
+Selected publications
 ======
   <ul>{% for post in site.publications reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
-Talks
+Selected presentations
 ======
   <ul>{% for post in site.talks reversed %}
     {% include archive-single-talk-cv.html  %}
