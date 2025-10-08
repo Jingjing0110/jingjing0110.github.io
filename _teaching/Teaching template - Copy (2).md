@@ -1,9 +1,9 @@
 ---
-title: "CEVE 316 Urban Water Systems Lab ‑ Process Modeling Module"
+title: "ES330 Fluid Mechanics"
 collection: teaching
 type: "Undergraduate course"
-permalink: /teaching/2025-spring-teaching
-venue: "Rice University"
-date: 2025-02-12
-location: "Houston, TX"
+permalink: /teaching/2020-spring-teaching
+venue: "Clarkson University"
+date: 2020-01-10
+location: "Potsdam, NY"
 ---
