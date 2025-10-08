@@ -24,7 +24,7 @@ repository               : "academicpages/academicpages.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile_jw1.png"
+  avatar           : "profile_jw1.jpg"
   name             : "Jingjing Wu"
   pronouns         : # example: "she/her"  
   bio              : "Postdoctoral Associate in Dr. Stadler’s lab. Research spans wastewater surveillance for public health, wastewater treatment, and resource recovery for sustainability."
