@@ -1,11 +1,6 @@
 ---
 title: "Sustainable Nutrient Management"
-excerpt: |
-My PhD research in **sustainable wastewater nutrient management** delivered the following key contributions:
-* **Demonstrated Feasibility:** Proved the potential economic and environmental benefits of using bioextractive macroalgae aquaculture to substitute advanced wastewater treatment technologies.
-* **Provided a Framework:** Established foundational guidance to support future research in macroalgae bioextraction.
-* **Enabled Broader Research:** The framework developed in my work has been applied to extensive projects, including wastewater nutrient recovery and the development of seaweed-based climate change solutions.
-<img src='/images/Projects_sustainable.jpg'>"
+excerpt: "My PhD work in sustainable wastewater nutrient management demonstrated the potential economic and environmental benefits of using bioextractive macroalgae aquaculture to substitute advanced wastewater treatment technologies and provided guidance and support for future efforts regarding macroalgae bioextraction. Additionally, my work established a framework that has been used to support further research into nutrient recovery from wastewater and macroalgae-based climate change solutions. <br/><img src='/images/Projects_sustainable.jpg'>"
 collection: portfolio
 ---
 
