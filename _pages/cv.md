@@ -10,7 +10,7 @@ redirect_from:
 {% include base_path %}
 
 Here you can find a selection of my publications and presentations.  
-A full version of my CV is available for [download (PDF)](/files/JingjingWu_CV.pdf).
+A full version of my CV is available for [download (PDF)](/files/JingjingWu_CV.pdf){:target="_blank"}.
 
 Education
 ======
