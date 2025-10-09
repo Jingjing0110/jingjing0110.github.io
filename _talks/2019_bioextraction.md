@@ -3,8 +3,10 @@ title: "Seaweed cultivation as an alternative nutrient management strategy for w
 Harbor, Maine"
 collection: talks
 type: "Oral presentation"
-permalink: /talks/2019-02-26-bioextraction
+permalink: /talks/2019_bioextraction
 venue: "ASLO Aquatic Sciences Meeting"
 date: 2019-02-26
 location: "San Juan, PR, USA"
 ---
+
+dddddddd
