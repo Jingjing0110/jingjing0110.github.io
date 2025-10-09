@@ -9,7 +9,7 @@ redirect_from:
 
 {% include base_path %}
 
-Here you can find highlights of my publications, presentations, and teaching experience. For a complete overview, including a full list of my publications, presentations, and mentoring roles, my CV is[available for download (PDF)](/files/JingjingWu_CV.pdf){:target="_blank"}.
+Here you can find highlights of my publications, presentations, and teaching experience. For a complete overview, including a full list of my publications, presentations, and mentoring roles, my CV is [available for download (PDF)](/files/JingjingWu_CV.pdf){:target="_blank"}.
 
 Education
 ======
