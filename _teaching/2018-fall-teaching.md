@@ -1,7 +1,7 @@
 ---
 title: "CE 479/579 Water and Wastewater Treatment Design"
 collection: teaching
-type: "Undergraduate and graduate course"
+type: "Guest lecturer"
 permalink: /teaching/2018-fall-teaching
 venue: "Clarkson University"
 date: 2018-09-01
