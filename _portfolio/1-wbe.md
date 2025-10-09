@@ -1,6 +1,6 @@
 ---
 title: "Wastewater Surveillance"
-excerpt: "My research focuses on wastewater-based epidemiology, with an emphasis on developing, validating, and optimizing methods for detecting emerging pathogens. Across multiple projects, I have developed and optimized workflows for pathogen detection using digital droplet PCR (ddPCR) and sequencing-based approaches. One of my studies developed and validated an assay capable of distinguishing between measles wild-type and vaccine strains in wastewater, which has been applied by several health departments in response to recent outbreaks. I am also using bioinformatics and metagenomic analyses to enhance the sensitivity and specificity of pathogen detection in wastewater. <br/><img src='/images/Projects_wbe.jpg'>"
+excerpt: "My research focuses on advancing wastewater-based epidemiology through the development and optimization of detection methods for emerging pathogens. I conduct *in silico* assay development and wet-lab validation for digital droplet PCR (ddPCR) and sequencing-based approaches. My work has directly contributed to improving the current wastewater surveillance system, including the development and validation of a wild-type measles assay applied by multiple health departments in response to recent outbreaks, and continues to expand through bioinformatics and metagenomic applications. <br/><img src='/images/Projects_wbe.jpg'>"
 collection: portfolio
 ---
 
