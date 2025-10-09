@@ -9,8 +9,7 @@ redirect_from:
 
 {% include base_path %}
 
-Here you can find a selection of my publications and presentations.  
-A full version of my CV is available for [download (PDF)](/files/JingjingWu_CV.pdf){:target="_blank"}.
+Here you can find highlights of my publications, presentations, and teaching experience. For a complete overview, including a full list of my publications, presentations, and mentoring roles, my CV is[available for download (PDF)](/files/JingjingWu_CV.pdf){:target="_blank"}.
 
 Education
 ======
@@ -50,7 +49,9 @@ Professional experience
 <!--
 Skills
 ======
-* Skill 1
+* Wastewater surveillance
+  * Molecular-diagnosis assay design and validation
+  * 
 * Skill 2
   * Sub-skill 2.1
   * Sub-skill 2.2
@@ -70,7 +71,7 @@ Selected presentations
     {% include archive-single-talk-cv.html  %}
   {% endfor %}</ul>
   
-Teaching
+Teaching experience
 ======
   <ul>{% for post in site.teaching reversed %}
     {% include archive-single-cv.html %}
