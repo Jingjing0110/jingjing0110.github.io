@@ -5,6 +5,11 @@ var addressPoints = [
     -66.05344
   ],
   [
+    "Comparison of multiple macroalgae cultivation systems and end\u2011use strategies based upon life cycle assessment<br />Coast\u2011Cow\u2011Consumer 1st Friday Research Forum; Virtual",
+    44.4939936,
+    11.3576917
+  ],
+  [
     "Wastewater surveillance for measles: Assay development, application, and action plan<br />NSF RCN webinar; Virtual",
     44.4939936,
     11.3576917
@@ -13,11 +18,6 @@ var addressPoints = [
     "Houston\u2019s wastewater monitoring of SARS\u2011CoV\u20112, influenza, RSV, and mpox for infectious disease surveillance<br />SIMB Annual Meeting; Minneapolis, MN, USA",
     44.9772995,
     -93.2654692
-  ],
-  [
-    "Comparison of multiple macroalgae cultivation systems and end\u2011use strategies based upon life cycle assessment<br />Coast\u2011Cow\u2011Consumer 1st Friday Research Forum; Virtual",
-    44.4939936,
-    11.3576917
   ],
   [
     "Tracking <i>Candida auris</i> in communities via wastewater: Facility\u2011level surveillance and targeted sequencing<br />Southeast Regional Wastewater Surveillance Workshop; Houston, TX, USA",
