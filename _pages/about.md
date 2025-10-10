@@ -9,7 +9,7 @@ redirect_from:
 
 I am a postdoctoral researcher dedicated to advancing wastewater as a resource for public health and environmental sustainability. My research explores innovative strategies to reduce the economic, environmental, and health burdens associated with wastewater while enhancing its value as a source of information and nutrients.
 
-Broadly, my work covers wastewater-based epidemiology, resource recovery, and sustainable nutrient management. My doctoral research demonstrated the potential of bioextractive macroalgae aquaculture as an alternative to advanced nutrient treatment, and my current projects focus on optimizing molecular diagnostic approaches for microbial detection in wastewater.
+Broadly, my work covers wastewater treatment, wastewater-based epidemiology, resource recovery, and sustainable nutrient management. My doctoral research demonstrated the potential of bioextractive macroalgae aquaculture as an alternative to advanced wastewater treatment processes, and my current projects focus on optimizing molecular diagnostic approaches for microbial detection in wastewater.
 
 Beyond research, I am passionate about teaching, mentoring, and community engagement, integrating science and service to create a broader public impact.
 
