@@ -9,8 +9,8 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "air" # Currently available options are "default", "air"
-title                    : "Jingjing Wu"
-# title                    : "Jingjing Wu – Wastewater Surveillance & Environmental Sustainability"
+# title                    : "Jingjing Wu"
+title                    : "Jingjing Wu | Rethinking Wastewater"
 title_separator          : "-"
 name                     : &name "Jingjing Wu"
 description              : &description "Your Name's academic portfolio"   # Update this with a general description of your site, this is the default if not overridden by a page
