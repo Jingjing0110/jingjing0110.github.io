@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-Hello! I am a postdoctoral researcher in Civil and Environmental Engineering at Rice University, working with Dr. Lauren Stadler. Before joining the [Stadler’s Lab](https://stadler.rice.edu/), I earned my Ph.D. and M.S. in Civil and Environmental Engineering from Clarkson University under the supervision of Dr. Shane Rogers and a B.S. in Biological Science from Ocean University of China. I am dedicated to advancing wastewater as a resource for public health and environmental sustainability. My research explores innovative strategies to reduce the economic, environmental, and health burdens associated with wastewater while enhancing its value as a source of information and nutrients.
+Hello! I am a postdoctoral researcher in Civil and Environmental Engineering at Rice University, working with Dr. Lauren Stadler. Before joining the [Stadler’s Lab](https://stadler.rice.edu/){:target="_blank"}, I earned my Ph.D. and M.S. in Civil and Environmental Engineering from Clarkson University under the supervision of Dr. Shane Rogers and a B.S. in Biological Science from Ocean University of China. I am dedicated to advancing wastewater as a resource for public health and environmental sustainability. My research explores innovative strategies to reduce the economic, environmental, and health burdens associated with wastewater while enhancing its value as a source of information and nutrients.
 
 ![public impact](/images/Research_interest_outline.png)
 
