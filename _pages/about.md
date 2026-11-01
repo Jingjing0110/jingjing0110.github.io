@@ -85,7 +85,7 @@ redirect_from:
     <span class="section-number" aria-hidden="true">03 /</span>
     <h2 id="teaching-heading">Teaching, mentoring &amp; connecting</h2>
   </div>
-  <p>I enjoy connecting environmental engineering concepts with practical problems, from hands-on wastewater process modeling to wastewater surveillance workshops for community college students.</p>
+  <p>I enjoy helping students connect what they learn in class with the environmental challenges around them. In university courses and community college workshops, I use process modeling and interactive data tools to make complex ideas easier to explore. I want students to feel comfortable asking questions, trying ideas, and learning from one another. Their feedback helps me keep learning and improving, too.</p>
   <p>I have mentored undergraduate researchers, honors students, and participants in NSF REU and RET programs. My community engagement has included COVID-19 surveillance and outreach on anaerobic digestion for small farms.</p>
   <div class="section-links">
     <a class="theme-link" href="{{ "/teaching/" | relative_url }}">Teaching experience <span aria-hidden="true">↗</span></a>
