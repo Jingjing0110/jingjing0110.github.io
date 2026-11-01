@@ -26,21 +26,14 @@
       </div>
     {% endif %}
 
-<!--Remove hyperlinks on the title  
     <h2 class="archive__item-title" itemprop="headline">
-      {% if post.link %}
-        <a href="{{ post.link }}">{{ title }}</a> <a href="{{ base_path }}{{ post.url }}" rel="permalink"><i class="fa fa-link" aria-hidden="true" title="permalink"></i><span class="sr-only">Permalink</span></a>
+      {% if post.collection == 'publications' and post.paperurl %}
+        <a href="{{ post.paperurl | escape }}" target="_blank" rel="noopener noreferrer" aria-label="{{ title | strip_html | strip_newlines | escape }} (opens in a new tab)">{{ title }}</a>
       {% else %}
-        <a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ title }}</a>
+        {{ title }}
       {% endif %}
-    </h2>      
--->
-    
-    <h2 class="archive__item-title" itemprop="headline">
-      {{ title }}
     </h2>
 
-    
     {% if post.read_time %}
       <p class="page__meta"><i class="fa fa-clock" aria-hidden="true"></i> {% include read-time.html %}</p>
     {% endif %}
@@ -63,7 +56,12 @@
       {% include research-figure.html item=post %}
     {% endif %}
     
-    {% if post.citation and post.paperurl and post.slidesurl and post.bibtexurl %}
+    {% if post.collection == 'publications' %}
+      {% if post.citation %}<p>Recommended citation: {{ post.citation }}</p>{% endif %}
+      {% if post.slidesurl or post.bibtexurl %}
+        <p>{% if post.slidesurl %}<a href="{{ post.slidesurl }}">Download Slides</a>{% endif %}{% if post.slidesurl and post.bibtexurl %} | {% endif %}{% if post.bibtexurl %}<a href="{{ post.bibtexurl }}">Download Bibtex</a>{% endif %}</p>
+      {% endif %}
+    {% elsif post.citation and post.paperurl and post.slidesurl and post.bibtexurl %}
       <p>Recommended citation: {{ post.citation }}<br /><a href="{{ post.paperurl }}">Download Paper</a> | <a href="{{ post.slidesurl }}">Download Slides</a> | <a href="{{ post.bibtexurl }}">Download Bibtex</a></p>
     {% elsif post.citation and post.paperurl and post.slidesurl %}
       <p>Recommended citation: {{ post.citation }}<br /><a href="{{ post.paperurl }}">Download Paper</a> | <a href="{{ post.slidesurl }}">Download Slides</a></p>

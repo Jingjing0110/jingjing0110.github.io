@@ -3,7 +3,8 @@ title: "A comparison of multiple macroalgae cultivation systems and end-use stra
 collection: publications
 category: nutrient
 permalink: /publications/2023-08-07-sustainability
-excerpt: 'This study assesses the economic and environmental performance of various cultivation, processing, and end-use strategies for Saccharina latissima and Gracilaria tikvahiae. It demonstrates the benefits of co-cultivation and shared infrastructure and identifies areas for process optimization. [Link to Paper](https://www.mdpi.com/2071-1050/15/15/12072)'
+paperurl: 'https://www.mdpi.com/2071-1050/15/15/12072'
+excerpt: 'This study assesses the economic and environmental performance of various cultivation, processing, and end-use strategies for Saccharina latissima and Gracilaria tikvahiae. It demonstrates the benefits of co-cultivation and shared infrastructure and identifies areas for process optimization.'
 date: 2023-08-07
 venue: 'Sustainability'
 citation: 'Wu et al. (2023). &quot; A comparison of multiple macroalgae cultivation systems and end-use strategies of Saccharina latissima and Gracilaria tikvahiae based on techno-economic analysis and life cycle assessment.&quot; <i>Sustainability</i>. 15 (15), 12072.'
