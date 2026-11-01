@@ -17,6 +17,11 @@ Education
 * M.S. in Civil and Environmental Engineering, Clarkson University, 2015
 * B.S. in Biological Science, Ocean University of China, 2012
 
+Professional credentials
+------
+* Engineer-in-Training (EIT), Texas Board of Professional Engineers and Land Surveyors, 2026
+* Passed the NCEES PE Environmental exam, 2026
+
 Professional experience
 ------
 * 2022-Present: Postdoctoral Associate

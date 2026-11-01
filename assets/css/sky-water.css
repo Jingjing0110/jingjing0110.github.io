@@ -496,3 +496,10 @@ html[data-theme="dark"] ::selection { background: #536579; color: white; }
 @media (max-width: 760px) {
   .sky-home-content .home-section { margin-top: 36px; }
 }
+
+/* Approved Sky & water masthead tagline. */
+.sky-water .site-brand { flex-direction: column; align-items: flex-start; gap: 7px; }
+.sky-water .brand-tagline { display: inline-flex; align-items: center; gap: 8px; max-width: none; font: 500 13px/1.5 var(--sans); letter-spacing: .15px; text-transform: none; color: #536d7d; }
+.sky-water .brand-tagline__ripple { display: block; flex: 0 0 32px; width: 32px; height: 13px; color: #8ba6b3; }
+html[data-theme="dark"] .sky-water .brand-tagline { color: #b1c9d6; }
+html[data-theme="dark"] .sky-water .brand-tagline__ripple { color: #a5becb; }

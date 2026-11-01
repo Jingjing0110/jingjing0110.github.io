@@ -2,7 +2,9 @@
   <div class="header-inner">
     <a class="site-brand" href="{{ '/' | relative_url }}" aria-label="{{ site.author.name | escape }}, homepage">
       <span class="brand-name">{{ site.author.name }}<span class="brand-dot" aria-hidden="true">.</span></span>
-      <span class="brand-tagline">Rethinking wastewater</span>
+      <span class="brand-tagline">Rethinking wastewater
+        <svg class="brand-tagline__ripple" viewBox="0 0 32 13" aria-hidden="true" focusable="false"><g fill="none" stroke="currentColor" stroke-width="1.1" stroke-linecap="round"><path d="M1 4c5-2 10-2 15 0s10 2 15 0"/><path d="M5 9c4-1.5 8-1.5 12 0s7 1.5 10 0" opacity=".65"/></g></svg>
+      </span>
     </a>
     <nav class="site-nav" aria-label="Main navigation">
       {% for link in site.data.navigation.main %}

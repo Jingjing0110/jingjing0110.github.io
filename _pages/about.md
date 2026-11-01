@@ -43,6 +43,7 @@ redirect_from:
   </div>
   <p>I am a postdoctoral researcher in Civil and Environmental Engineering at Rice University, working with Dr. Lauren Stadler in the <a href="https://stadler.rice.edu/">Stadler Lab</a>. I earned my Ph.D. and M.S. in Civil and Environmental Engineering at Clarkson University with Dr. Shane Rogers, and my B.S. in Biological Science at Ocean University of China.</p>
   <p>My doctoral research investigated bioextractive macroalgae aquaculture as an alternative to advanced wastewater treatment. My current work focuses on improving molecular approaches for microbial detection in wastewater.</p>
+  <p>I am also an Engineer-in-Training (EIT) in Texas and passed the PE Environmental exam in 2026.</p>
 </section>
 
 <section class="research-overview home-section" aria-labelledby="research-heading">
