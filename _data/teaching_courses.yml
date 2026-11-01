@@ -1,0 +1,7 @@
+# Display order follows each course's most recent teaching term.
+# Titles, institutions, roles, terms and descriptions remain in _teaching/.
+# Repeated course records share a course_id and retain their original detail URLs.
+- course_id: urban-water-systems-lab
+- course_id: wastewater-surveillance-workshop
+- course_id: water-wastewater-treatment-design
+- course_id: fluid-mechanics
