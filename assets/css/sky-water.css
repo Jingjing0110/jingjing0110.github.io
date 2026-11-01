@@ -503,3 +503,32 @@ html[data-theme="dark"] ::selection { background: #536579; color: white; }
 .sky-water .brand-tagline__ripple { display: block; flex: 0 0 32px; width: 32px; height: 13px; color: #8ba6b3; }
 html[data-theme="dark"] .sky-water .brand-tagline { color: #b1c9d6; }
 html[data-theme="dark"] .sky-water .brand-tagline__ripple { color: #a5becb; }
+
+/* Larger main text within the original heading, detail and spacing hierarchy. */
+:root {
+  --reading-size: 1rem;
+  --reading-leading: 1.8;
+}
+.sky-water .sky-content { font-size: var(--reading-size); line-height: var(--reading-leading); }
+.sky-water .sky-home-content .intro-detail,
+.sky-water .sky-home-content .home-section > p,
+.sky-water .sky-home-content .research-theme > p:not(.theme-label),
+.sky-water .sky-content .page-intro,
+.sky-water .sky-archive > .wordwrap,
+.sky-water .sky-archive > p,
+.sky-water .sky-content .archive__item-excerpt,
+.sky-water .sky-content .archive__item-excerpt p,
+.sky-water .sky-content .page__content {
+  font-size: var(--reading-size);
+  line-height: var(--reading-leading);
+}
+.sky-water .sky-home-content .intro-lead,
+.sky-water .sky-home-content .intro-detail { max-width: 100%; }
+.sky-water .sky-archive > ul { font-size: var(--reading-size); line-height: var(--reading-leading); }
+@media (max-width: 1000px) {
+  .sky-water .sky-home-content .research-themes { grid-template-columns: 1fr; gap: 28px; }
+  .sky-water .sky-home-content .research-theme + .research-theme { border-left: 0; padding-left: 0; padding-top: 28px; border-top: 1px solid var(--line); }
+}
+@media print {
+  .sky-water .sky-content { --reading-size: 11pt; --reading-leading: 1.5; }
+}
