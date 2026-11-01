@@ -9,16 +9,16 @@ redirect_from:
 
 {% include base_path %}
 
-Here you can find highlights of my publications, presentations, and teaching experience. For a complete overview, including a full list of my publications, presentations, and mentoring roles, my CV is [available for download (PDF)](/files/JingjingWu_CV.pdf){:target="_blank"}.
+Here you can find highlights of my publications, presentations, and teaching experience. For a complete overview, including a full list of my publications, presentations, and mentoring roles, my CV is [available for download (PDF)]({{ "/files/Jingjing_Wu_CV.pdf" | relative_url }}){:target="_blank"}.
 
 Education
-======
+------
 * Ph.D in Civil and Environmental Engineering, Clarkson University, 2021
 * M.S. in Civil and Environmental Engineering, Clarkson University, 2015
 * B.S. in Biological Science, Ocean University of China, 2012
 
 Professional experience
-======
+------
 * 2022-Present: Postdoctoral Associate
   * Rice University
   * Department of Civil and Environmental Engineering
@@ -48,7 +48,7 @@ Professional experience
 
 <!--
 Skills
-======
+------
 * Wastewater surveillance
   * Molecular-diagnosis assay design and validation
   * 
@@ -60,25 +60,25 @@ Skills
 -->
 
 Selected publications
-======
-  <ul>{% for post in site.publications reversed %}
+------
+  <ul class="cv-records">{% for post in site.publications reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
 Selected presentations
-======
-  <ul>{% for post in site.talks reversed %}
+------
+  <ul class="cv-records">{% for post in site.talks reversed %}
     {% include archive-single-talk-cv.html  %}
   {% endfor %}</ul>
   
 Teaching experience
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
+------
+  <ul class="cv-records">{% for course in site.data.teaching_courses %}
+    {% include archive-single-teaching-cv.html course=course %}
   {% endfor %}</ul>
 
 <!--
 Service and leadership
-======
+------
 * Currently signed in to 43 different slack teams
 -->

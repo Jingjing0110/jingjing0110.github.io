@@ -2,6 +2,9 @@
 permalink: /markdown/
 title: "Markdown"
 author_profile: true
+mathjax: true
+mermaid: true
+plotly: true
 redirect_from: 
   - /md/
   - /markdown.html

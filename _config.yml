@@ -13,7 +13,7 @@ site_theme               : "air" # Currently available options are "default", "a
 title                    : "Jingjing Wu | Rethinking Wastewater"
 title_separator          : "-"
 name                     : &name "Jingjing Wu"
-description              : &description "Jingjing Wu's academic portfolio"   # Update this with a general description of your site, this is the default if not overridden by a page
+description              : &description "Jingjing Wu studies wastewater surveillance for public health and sustainable resource recovery."   # Update this with a general description of your site, this is the default if not overridden by a page
 url                      : https://jingjing0110.github.io # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
                                                            # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -26,17 +26,19 @@ author:
   # Biographic information
   avatar           : "profile_jw1.jpg"
   name             : "Jingjing Wu"
+  role             : "Postdoctoral Associate"
+  department       : "Civil & Environmental Engineering"
   pronouns         : # example: "she/her"  
   bio              : "Postdoctoral Associate in Dr. Stadler’s lab. Research spans wastewater surveillance for public health, wastewater treatment, and resource recovery for sustainability."
   location         : "Houston, TX"
   employer         : "Rice University"
   uri              : # URL
-  email            : "jw168@rice.org" 
+  email            : "jw168@rice.edu" 
 
   # Academic websites
   # academia         : # URL
   # arxiv            : # URL - Update with the correct link to your profile
-  googlescholar    : "https://scholar.google.com/citations?user=EJcatRYA&user=EJcatRYAAAAJ"
+  googlescholar    : "https://scholar.google.com/citations?user=EJcatRYAAAAJ"
   # inspire-hep      : # URL
   # impactstory      : # URL
   orcid            : "https://orcid.org/0000-0003-0531-1353"
@@ -165,6 +167,10 @@ include:
   - _pages
   - files
 exclude:
+  - "**/*:Zone.Identifier"
+  - "*:Zone.Identifier"
+  - scripts
+  - WEBSITE_UPDATE_NOTES.txt
   - "*.sublime-project"
   - "*.sublime-workspace"
   - .asset-cache

@@ -1,0 +1,14 @@
+{% assign research_figure = include.item.research_figure %}
+{% if research_figure.src %}
+<figure class="research-figure">
+  <picture class="research-figure__canvas">
+    {% if research_figure.mobile %}
+    <source media="(max-width: 1100px)" srcset="{{ research_figure.mobile | relative_url }}" width="{{ research_figure.mobile_width }}" height="{{ research_figure.mobile_height }}">
+    {% endif %}
+    <img src="{{ research_figure.src | relative_url }}" width="{{ research_figure.width }}" height="{{ research_figure.height }}" alt="{{ research_figure.alt | escape }}" loading="lazy" decoding="async">
+  </picture>
+  {% if research_figure.caption %}
+  <figcaption>{{ research_figure.caption | escape }}</figcaption>
+  {% endif %}
+</figure>
+{% endif %}

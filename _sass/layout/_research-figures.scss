@@ -1,0 +1,43 @@
+/* Original research diagrams share one responsive frame on lists and detail pages. */
+.research-figure {
+  display: block;
+  clear: both;
+  width: 100%;
+  margin: 1.5rem 0 2.5rem;
+
+  .research-figure__canvas {
+    display: block;
+    width: 100%;
+    overflow: hidden;
+    background: #f8f7f4;
+    border: 1px solid #ded8e2;
+    border-radius: 4px;
+  }
+
+  img {
+    display: block;
+    width: 100%;
+    max-width: none;
+    height: auto;
+    margin: 0;
+    border: 0;
+  }
+
+  figcaption {
+    display: block;
+    width: 100%;
+    margin: 0.75rem 0 0;
+    color: var(--global-text-color);
+    font-family: inherit;
+    font-size: 0.75rem;
+    line-height: 1.7;
+    opacity: 0.8;
+  }
+}
+
+@media (max-width: 1100px) {
+  .research-figure .research-figure__canvas {
+    max-width: 430px;
+    margin-inline: auto;
+  }
+}

@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1040" height="620" viewBox="0 0 1040 620" role="img" aria-labelledby="recovery-title recovery-desc">
+  <title id="recovery-title">An integrated framework for coastal nutrient management</title>
+  <desc id="recovery-desc">Coastal nutrient management is the challenge, illustrated by a Boothbay Harbor case study comparing water resource recovery facility upgrades with bioextractive macroalgae aquaculture. Two parallel strategies, macroalgae bioextraction and wastewater treatment, feed an integrated evaluation to support nutrient-management decisions. Cultivation includes two scenarios, four platforms, and four biomass end uses. Treatment spans 0.1 to 20 million US gallons per day, twelve technologies, three nutrient effluent goals, and freshwater or coastal discharge. Integrated evaluation spans 0.1 to 5 million US gallons per day, four facility scenarios, five mixed scenarios, and three nutrient effluent goals. All parts use scenario design, process modeling, life cycle assessment, and techno-economic analysis.</desc>
+  <defs>
+    <marker id="recovery-arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="m2 1 6 4-6 4" fill="none" stroke="#b4a0bf" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+    </marker>
+  </defs>
+  <text x="40" y="45" fill="#302d35" font-family="Georgia, 'Times New Roman', serif" font-size="30">An integrated framework</text>
+  <text x="40" y="77" fill="#726080" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="17">Evaluating bioextractive aquaculture and wastewater treatment for coastal nutrient management</text>
+  <g fill="none" stroke="#b4a0bf" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M191 260h67q18 0 18-18v-54q0-18 18-18h34" marker-end="url(#recovery-arrow)" />
+    <path d="M258 260q18 0 18 18v54q0 18 18 18h34" marker-end="url(#recovery-arrow)" />
+    <path d="M725 170q18 0 18 18v54q0 18 18 18h17" marker-end="url(#recovery-arrow)" />
+    <path d="M725 350q18 0 18-18v-54q0-18 18-18" />
+  </g>
+  <circle cx="135" cy="260" r="56" fill="#efebf3" />
+  <g id="recovery-outfall-icon" fill="none" stroke="#726080" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M 107.44,234.55999999999997 L 131.82,234.55999999999997 C 141.36,234.55999999999997 146.66,239.85999999999999 146.66,249.39999999999998 L 146.66,261.06 L 133.94,261.06 L 133.94,250.45999999999998 C 133.94,248.33999999999997 132.88,247.27999999999997 130.76,247.27999999999997 L 107.44,247.27999999999997 L 107.44,234.55999999999997" />
+    <path d="M 116.98,234.55999999999997 L 116.98,247.27999999999997" />
+    <ellipse cx="140.3" cy="261.06" rx="6.36" ry="2.544" fill="#efebf3" />
+    <path d="M 136.06,266.36 L 136.06,271.65999999999997 M 140.3,267.41999999999996 L 140.3,274.84 M 144.54,266.36 L 144.54,271.65999999999997" />
+    <path d="M 108.5,279.08 C 114.86,274.84 121.22,274.84 127.58,279.08 C 133.94,283.32 140.3,283.32 146.66,279.08 C 153.02,274.84 156.2,275.9 161.5,279.08 M 115.92,287.56 C 122.28,284.38 128.64,284.38 135.0,287.56 C 141.36,290.74 147.72,290.74 154.07999999999998,287.56" />
+  </g>
+  <text x="40" y="353" fill="#726080" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="16" letter-spacing="0.3">01 / NUTRIENT CHALLENGE</text>
+  <text x="40" y="386" fill="#302d35" font-family="Georgia, 'Times New Roman', serif" font-size="27">Boothbay Harbor</text>
+  <text x="40" y="416" fill="#302d35" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="16">WRRF upgrade vs. bioextractive</text>
+  <text x="40" y="440" fill="#302d35" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="16">macroalgae aquaculture</text>
+  <circle cx="370" cy="170" r="34" fill="#efebf3" />
+  <g id="recovery-cultivation-icon" fill="none" stroke="#726080" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M 348 153 Q 370 159 392 153" />
+    <circle cx="350" cy="153" r="2.6" fill="#efebf3" />
+    <circle cx="390" cy="153" r="2.6" fill="#efebf3" />
+    <path d="M 361 156 C 357 166 364 175 358 188" />
+    <path d="M 360 166 C 355 165 353 161 353 158" />
+    <path d="M 361 175 C 366 174 369 171 370 167" />
+    <path d="M 359 183 C 354 183 351 180 349 177" />
+    <path d="M 381 156 C 378 165 383 173 378 184" />
+    <path d="M 380 165 C 385 164 387 161 388 157" />
+    <path d="M 380 174 C 376 173 374 170 374 167" />
+    <path d="M 379 181 C 384 180 387 177 388 173" />
+    <path d="M 350 193 Q 360 190 370 193 Q 380 196 390 193" />
+  </g>
+  <text x="420" y="130" fill="#726080" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="16" letter-spacing="0.3">02 / BIOEXTRACTION</text>
+  <text x="420" y="164" fill="#302d35" font-family="Georgia, 'Times New Roman', serif" font-size="25">Macroalgae cultivation</text>
+  <g fill="#302d35" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="16">
+    <text x="420" y="196">2 cultivation scenarios</text>
+    <text x="420" y="221">4 cultivation platforms</text>
+    <text x="420" y="246">4 biomass end uses</text>
+  </g>
+  <circle cx="370" cy="350" r="34" fill="#efebf3" />
+  <g id="recovery-treatment-icon" fill="none" stroke="#726080" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+    <ellipse cx="370" cy="340.6" rx="21.62" ry="7.99" />
+    <path d="M 348.38,340.6 L 348.38,359.40000000000003 C 348.38,370.68 391.62,370.68 391.62,359.40000000000003 L 391.62,340.6" />
+    <path d="M 351.2,344.36 L 366.24,340.6" />
+    <ellipse cx="370" cy="340.6" rx="3.76" ry="2.068" fill="#efebf3" />
+  </g>
+  <text x="420" y="312" fill="#726080" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="16" letter-spacing="0.3">03 / TREATMENT</text>
+  <text x="420" y="346" fill="#302d35" font-family="Georgia, 'Times New Roman', serif" font-size="25">Wastewater treatment</text>
+  <g fill="#302d35" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="16">
+    <text x="420" y="378">0.1–20 MGD · 12 technologies</text>
+    <text x="420" y="403">3 nutrient effluent goals</text>
+    <text x="420" y="428">Freshwater or coastal discharge</text>
+  </g>
+  <circle cx="824" cy="260" r="40" fill="#efebf3" />
+  <g fill="none" stroke="#726080" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M824 237v47m-14 0h28m-35-34h42m-33 0-10 17h20l-10-17Zm24 0-10 17h20l-10-17Z" />
+    <circle cx="824" cy="241" r="3" fill="#efebf3" />
+  </g>
+  <text x="775" y="325" fill="#726080" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="16" letter-spacing="0.3">04 / DECISION SUPPORT</text>
+  <text x="775" y="356" fill="#302d35" font-family="Georgia, 'Times New Roman', serif" font-size="22">Integrated evaluation</text>
+  <g fill="#302d35" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="16">
+    <text x="775" y="386">0.1–5 MGD</text>
+    <text x="775" y="411">4 WRRF scenarios</text>
+    <text x="775" y="436">5 mixed scenarios</text>
+    <text x="775" y="461">3 nutrient effluent goals</text>
+  </g>
+  <path d="M40 498h960v90H40Z" fill="#efebf3" />
+  <text x="64" y="526" fill="#726080" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="16" letter-spacing="1">COMMON ASSESSMENT FRAMEWORK</text>
+  <text x="64" y="559" fill="#302d35" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="17">Scenario design · Process modeling · Life cycle assessment · Techno-economic analysis</text>
+  <text x="40" y="614" fill="#726080" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="16">WRRF: water resource recovery facility · MGD: million US gallons per day</text>
+</svg>

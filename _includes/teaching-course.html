@@ -1,0 +1,38 @@
+{% assign course_posts = site.teaching | where: "course_id", include.course.course_id | sort: "date" | reverse %}
+{% assign course_latest = course_posts | first %}
+{% assign course_title = course_latest.title | markdownify | remove: "<p>" | remove: "</p>" %}
+{% assign course_roles = course_posts | group_by: "type" %}
+{% if course_latest %}
+{% if include.format == "cv" %}<li class="list__item">{% else %}<div class="list__item">{% endif %}
+  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
+    {% if include.format == "cv" %}
+      <h3 class="archive__item-title" itemprop="headline">{{ course_title }}</h3>
+    {% else %}
+      <h2 class="archive__item-title" itemprop="headline">{{ course_title }}</h2>
+    {% endif %}
+    <p class="page__meta">{{ course_latest.venue }}</p>
+    {% for course_role in course_roles %}
+      {% assign role_periods = course_role.items | map: "cv_period" | join: "; " %}
+      <p class="page__meta"><strong>{{ course_role.name }}</strong> <span aria-hidden="true">·</span> {{ role_periods }}</p>
+      {% if include.format != "cv" %}
+        {% for teaching_post in course_role.items %}
+          {% assign teaching_description = teaching_post.content | strip %}
+          {% if teaching_description != "" %}
+            <div class="archive__item-excerpt" itemprop="description">
+              {% if course_role.items.size > 1 %}<p><strong>{{ teaching_post.cv_period }}</strong></p>{% endif %}
+              {{ teaching_post.content | markdownify }}
+            </div>
+          {% endif %}
+        {% endfor %}
+      {% endif %}
+    {% endfor %}
+    {% if include.format == "cv" %}
+      {% for teaching_post in course_posts %}
+        {% if teaching_post.cv_highlight %}
+          <p class="archive__item-excerpt"><strong>Highlight{% if course_posts.size > 1 %} ({{ teaching_post.cv_period }}){% endif %}:</strong> {{ teaching_post.cv_highlight | escape }}</p>
+        {% endif %}
+      {% endfor %}
+    {% endif %}
+  </article>
+{% if include.format == "cv" %}</li>{% else %}</div>{% endif %}
+{% endif %}

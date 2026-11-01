@@ -1,25 +1,19 @@
-{% include base_path %}
-
-{% if site.author.github or site.author.bitbucket or site.atom_feed.hide != true %}
-<div class="page__footer-follow">
-  <ul class="social-icons">
-    {% if site.data.ui-text[site.locale].follow_label %}
-      <li><strong>{{ site.data.ui-text[site.locale].follow_label }}</strong></li>
-    {% endif %}
-    {% if site.author.github %}
-      <li><a href="http://github.com/{{ site.author.github }}"><i class="fab fa-github" aria-hidden="true"></i> GitHub</a></li>
-    {% endif %}
-    {% if site.author.bitbucket %}
-      <li><a href="http://bitbucket.org/{{ site.author.bitbucket }}"><i class="fab fa-bitbucket" aria-hidden="true"></i> Bitbucket</a></li>
-    {% endif %}
-    {% if site.atom_feed.hide != true %}
-    <li><a href="{% if site.atom_feed.path %}{{ site.atom_feed.path }}{% else %}{{ base_path }}/feed.xml{% endif %}"><i class="fa fa-fw fa-rss-square" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].feed_label | default: "Feed" }}</a></li>
-    {% endif %}
-  </ul>
-</div>
-{% endif %}
-
-<div class="page__footer-copyright">
-  &copy; {{ site.time | date: '%Y' }} {{ site.name | default: site.title }}, {{ site.data.ui-text[site.locale].powered_by | default: "Powered by" }} <a href="http://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://github.com/academicpages/academicpages.github.io">AcademicPages</a>, a fork of <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.<br />
-  Site last updated {{ "now" | date: '%Y-%m-%d' }}
-</div>
+    <footer class="site-footer">
+      <div class="footer-water" aria-hidden="true">
+        <svg class="footer-water__curves" viewBox="0 0 1440 112" preserveAspectRatio="none" focusable="false">
+          <path d="M0 65C175 18 285 109 484 70S780 20 974 63s302 42 466-5v54H0Z" fill="#e6eef1" fill-opacity=".68"/>
+          <path d="M0 91c214-55 319 28 535-6s298-41 473-8 285 16 432-12v47H0Z" fill="#e6e2ef" fill-opacity=".35"/>
+          <g fill="none" stroke-linecap="round" vector-effect="non-scaling-stroke">
+            <path d="M0 65C175 18 285 109 484 70S780 20 974 63s302 42 466-5" stroke="#b7cbd5" stroke-width="1.1"/>
+            <path d="M0 91c214-55 319 28 535-6s298-41 473-8 285 16 432-12" stroke="#c7bed8" stroke-width="1"/>
+            <path d="M110 45c51-8 83-4 123 6m770-14c47-7 82-3 120 7" stroke="#d0dbdf" stroke-width="1"/>
+          </g>
+        </svg>
+        <svg class="footer-water__community" viewBox="0 0 64 64" focusable="false"><use href="#sky-motif-community"/></svg>
+        <svg class="footer-water__algae" viewBox="0 0 64 64" focusable="false"><use href="#sky-motif-macroalgae"/></svg>
+      </div>
+      <div class="footer-inner">
+        <p>&copy; {{ site.time | date: "%Y" }} {{ site.author.name }} <span aria-hidden="true">·</span> Rethinking wastewater</p>
+        <p>Built with <a href="https://jekyllrb.com/">Jekyll</a> &amp; <a href="https://github.com/academicpages/academicpages.github.io">AcademicPages</a>{% unless site.atom_feed.hide %} <span aria-hidden="true">·</span> <a href="{{ "/feed.xml" | relative_url }}">Feed</a>{% endunless %}</p>
+      </div>
+    </footer>

@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="390" height="1040" viewBox="0 0 390 1040" role="img" aria-labelledby="surveillance-mobile-title surveillance-mobile-desc">
+  <title id="surveillance-mobile-title">Wastewater surveillance workflow</title>
+  <desc id="surveillance-mobile-desc">Wastewater from treatment plants or facilities is processed to extract DNA or RNA. Parallel droplet digital PCR and short-read sequencing workflows support interpretation of community disease trends. Research contributions include assay development and validation, sample processing optimization, and sequencing analysis pipelines. This is a conceptual workflow, not measured results.</desc>
+  <defs>
+    <marker id="surveillance-mobile-arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse">
+      <path d="m1 1 7 4-7 4" fill="none" stroke="#b4a0bf" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    </marker>
+  </defs>
+  <rect width="390" height="1040" rx="8" fill="#f8f7f4"/>
+  <text x="24" y="39" fill="#302d35" font-family="Georgia, 'Times New Roman', serif" font-size="26">Wastewater surveillance</text>
+  <text x="24" y="69" fill="#726080" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="16">From samples to community insights</text>
+
+  <g fill="none" stroke="#b4a0bf" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#surveillance-mobile-arrow)">
+    <path d="M64 165v43"/>
+    <path d="M64 285v43"/>
+    <path d="M64 405v24q0 13 13 13h105q13 0 13 13v21h-71q-13 0-13 13v33"/>
+    <path d="M195 476h77q13 0 13 13v33"/>
+    <path d="M76 565H45q-13 0-13 13v107q0 13 13 13h137q13 0 13 13v17"/>
+    <path d="M320 565h25q13 0 13 13v107q0 13-13 13H208q-13 0-13 13v17"/>
+  </g>
+
+  <!-- Samples. -->
+  <circle cx="64" cy="130" r="34" fill="#efebf3"/>
+  <g fill="none" stroke="#726080" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M46 117h10v25a5 5 0 0 1-10 0Zm13-7h10v32a5 5 0 0 1-10 0Zm13 7h10v25a5 5 0 0 1-10 0Z"/>
+    <path d="M44 113h14m-1-7h14m-1 7h14M47 132q4-3 8 0m5-7q4-3 8 0m5 7q4-3 8 0"/>
+  </g>
+  <g fill="#302d35" font-family="Georgia, 'Times New Roman', serif" font-size="23">
+    <text x="118" y="121">Wastewater samples</text>
+  </g>
+  <g fill="#726080" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="16">
+    <text x="118" y="149">Treatment plants</text>
+    <text x="118" y="173">or facilities</text>
+  </g>
+
+  <!-- Processing. -->
+  <circle cx="64" cy="250" r="34" fill="#efebf3"/>
+  <g fill="none" stroke="#726080" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M42 250h44v18q0 4-4 4H46q-4 0-4-4v-18Zm3 0 8-20h27l4 20"/>
+    <ellipse cx="64" cy="251" rx="17" ry="6"/>
+    <path d="m57 249 3-3m7 3 1-3m-18 18h10m16 0h4"/>
+  </g>
+  <text x="118" y="246" fill="#302d35" font-family="Georgia, 'Times New Roman', serif" font-size="23">Sample processing</text>
+  <text x="118" y="274" fill="#726080" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="16">Concentrate &amp; extract</text>
+
+  <!-- Nucleic acids. -->
+  <circle cx="64" cy="370" r="34" fill="#efebf3"/>
+  <g fill="none" stroke="#726080" stroke-width="1.7" stroke-linecap="round">
+    <path d="M54 346c0 12 20 12 20 24s-20 12-20 24m20-48c0 12-20 12-20 24s20 12 20 24"/>
+    <path d="M56 350h16m-11 8h6m-11 8h16m-16 8h16m-11 8h6m-11 8h16" stroke="#b4a0bf"/>
+  </g>
+  <text x="118" y="366" fill="#302d35" font-family="Georgia, 'Times New Roman', serif" font-size="23">Nucleic acids</text>
+  <text x="118" y="394" fill="#726080" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="17">DNA / RNA</text>
+
+  <!-- Parallel analytical methods. -->
+  <circle cx="111" cy="565" r="34" fill="#efebf3"/>
+  <g fill="none" stroke="#726080" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="91" y="545" width="40" height="40" rx="4"/>
+    <circle cx="100" cy="554" r="2.5"/><circle cx="111" cy="554" r="2.5"/><circle cx="122" cy="554" r="2.5"/>
+    <circle cx="100" cy="565" r="2.5"/><circle cx="111" cy="565" r="2.5"/><circle cx="122" cy="565" r="2.5"/>
+    <circle cx="100" cy="576" r="2.5"/><circle cx="111" cy="576" r="2.5"/><circle cx="122" cy="576" r="2.5"/>
+  </g>
+  <circle cx="111" cy="554" r="2.5" fill="#b4a0bf"/><circle cx="100" cy="565" r="2.5" fill="#b4a0bf"/><circle cx="122" cy="576" r="2.5" fill="#b4a0bf"/>
+  <g fill="#302d35" font-family="Georgia, 'Times New Roman', serif" font-size="20" text-anchor="middle">
+    <text x="111" y="631">Droplet digital</text>
+    <text x="111" y="657">PCR (ddPCR)</text>
+  </g>
+
+  <circle cx="285" cy="565" r="34" fill="#efebf3"/>
+  <g fill="none" stroke="#726080" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M265 547h40v33h-40Zm9 38h22m-11-5v5"/>
+    <path d="M271 555h7m5 0h6m5 0h5m-28 9h4m5 0h8m5 0h6m-28 9h9m5 0h5m5 0h4"/>
+  </g>
+  <g fill="#302d35" font-family="Georgia, 'Times New Roman', serif" font-size="20" text-anchor="middle">
+    <text x="285" y="631">Short-read</text>
+    <text x="285" y="657">sequencing</text>
+  </g>
+
+  <!-- Public-health interpretation, without a simulated data trend. -->
+  <circle cx="195" cy="770" r="34" fill="#efebf3"/>
+  <g fill="none" stroke="#726080" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M175 752h40v29h-40Zm20 29v8m-11 0h22"/>
+    <path d="M181 760h6m5 0h17m-28 7h6m5 0h17m-28 7h6m5 0h11"/>
+  </g>
+  <text x="195" y="833" fill="#302d35" font-family="Georgia, 'Times New Roman', serif" font-size="23" text-anchor="middle">Public-health interpretation</text>
+  <text x="195" y="861" fill="#726080" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="17" text-anchor="middle">Community disease trends</text>
+
+  <path d="M24 896h342" stroke="#ded8e2"/>
+  <text x="24" y="922" fill="#726080" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="16" letter-spacing="1.1">RESEARCH CONTRIBUTIONS</text>
+  <g fill="#302d35" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="16">
+    <text x="24" y="950">Assay development &amp; validation</text>
+    <text x="24" y="978">Sample processing optimization</text>
+    <text x="24" y="1006">Sequencing analysis pipelines</text>
+  </g>
+</svg>

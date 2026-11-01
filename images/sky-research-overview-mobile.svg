@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="390" height="490" viewBox="0 0 390 490" role="img" aria-labelledby="research-mobile-title research-mobile-desc" style="--motif-water:#678698;--motif-health:#806d94;--motif-resource:#66816f">
+  <title id="research-mobile-title">Two connected perspectives on wastewater</title>
+  <desc id="research-mobile-desc">Wastewater provides health information through wastewater surveillance, including pathogen detection, assay validation, and microbial analysis. Its recoverable resources support sustainable resource recovery, evaluated using process modeling, life cycle assessment, and techno-economic analysis.</desc>
+  <defs>
+    <marker id="research-mobile-arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse">
+      <path d="M1 1 8 5 1 9" fill="none" stroke="#b4a0bf" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+    </marker>
+    <symbol id="sky-motif-water" viewBox="0 0 64 64">
+      <g fill="none" stroke="var(--motif-water, #809eae)" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M32 7c-5 9-13 17-13 27a13 13 0 0 0 26 0C45 24 37 16 32 7Z" />
+        <path d="M25 34c0 5 3 8 7 9" />
+        <path d="M7 53c8-3 16-3 24 0s16 3 26 0M14 60c6-2 12-2 18 0s12 2 18 0" />
+      </g>
+    </symbol>
+    <symbol id="sky-motif-surveillance" viewBox="0 0 64 64">
+      <g fill="none" stroke="var(--motif-health, #9988ac)" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+        <circle cx="28" cy="26" r="18" />
+        <path d="m41 39 14 15" />
+        <circle cx="28" cy="26" r="8" />
+        <path d="M28 15v3m0 16v3M17 26h3m16 0h3m-19-8 2 2m12 12 2 2m-2-14 2-2M22 32l-2 2" />
+      </g>
+      <g fill="var(--motif-health, #9988ac)">
+        <circle cx="25" cy="24" r="1.25" />
+        <circle cx="31" cy="28" r="1.1" />
+      </g>
+    </symbol>
+    <symbol id="sky-motif-macroalgae" viewBox="0 0 64 64">
+      <g fill="none" stroke="var(--motif-resource, #879f91)" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M28 53c5-12 0-20 7-28 5-5 2-10 5-15M33 29c-5-2-7-6-7-10m5 20c7-1 11-5 13-10M30 46c-4-1-7-3-9-6" />
+        <path d="M20 56c5-4 12-4 18 0m-11-3-3 4m5-4 4 4" />
+      </g>
+      <path d="M10 60c7-2 14-2 21 0s14 2 23 0" fill="none" stroke="var(--motif-water, #809eae)" stroke-width="1.6" stroke-linecap="round" />
+    </symbol>
+    <symbol id="sky-motif-resource-recovery" viewBox="0 0 64 64">
+      <g fill="none" stroke="var(--motif-resource, #879f91)" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M11 32a21 21 0 0 1 39.2-10.5M53 32a21 21 0 0 1-39.2 10.5" />
+        <path d="m42.2 19.5 8 2 1.2-8.1M21.8 44.5l-8-2-1.2 8.1" />
+        <circle cx="25" cy="29" r="2.8" />
+        <circle cx="39" cy="29" r="2.8" />
+        <circle cx="32" cy="40" r="2.8" />
+      </g>
+    </symbol>
+    <symbol id="sky-motif-community" viewBox="0 0 64 64">
+      <g fill="none" stroke="var(--motif-health, #9988ac)" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+        <circle cx="32" cy="21" r="6" />
+        <path d="M19 50v-5a13 13 0 0 1 26 0v5" />
+      </g>
+      <g fill="none" stroke="var(--motif-water, #809eae)" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
+        <circle cx="15.5" cy="25" r="4.5" />
+        <circle cx="48.5" cy="25" r="4.5" />
+        <path d="M7 50v-5c0-7 3-11 8.5-11 2 0 4 .6 5.5 1.7M57 50v-5c0-7-3-11-8.5-11-2 0-4 .6-5.5 1.7" />
+      </g>
+    </symbol>
+  </defs>
+  <g fill="none" stroke="#b4a0bf" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M37 72V328q0 14 14 14h12" marker-end="url(#research-mobile-arrow)" />
+    <path d="M37 132q0 14 14 14h12" marker-end="url(#research-mobile-arrow)" />
+  </g>
+  <circle cx="37" cy="44" r="28" fill="#efebf3" />
+  <use href="#sky-motif-water" x="14" y="21" width="46" height="46" />
+  <text x="82" y="41" fill="#302d35" font-family="Georgia, 'Times New Roman', serif" font-size="25">Wastewater</text>
+  <text x="82" y="66" fill="#726080" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="16">A shared resource</text>
+  <g fill="#302d35">
+    <text x="82" y="112" fill="#726080" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="15" letter-spacing="0.8">HEALTH INFORMATION</text>
+    <text x="82" y="145" font-family="Georgia, 'Times New Roman', serif" font-size="25">Wastewater</text>
+    <text x="82" y="174" font-family="Georgia, 'Times New Roman', serif" font-size="25">surveillance</text>
+    <text x="82" y="205" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="17">Pathogen detection</text>
+    <text x="82" y="230" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="17">Assay validation</text>
+    <text x="82" y="255" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="17">Microbial analysis</text>
+  </g>
+  <path d="M82 282H369" stroke="#ded8e2" stroke-width="1" />
+  <g fill="#302d35">
+    <text x="82" y="310" fill="#726080" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="15" letter-spacing="0.8">RECOVERABLE RESOURCES</text>
+    <text x="82" y="343" font-family="Georgia, 'Times New Roman', serif" font-size="25">Sustainable</text>
+    <text x="82" y="372" font-family="Georgia, 'Times New Roman', serif" font-size="25">resource recovery</text>
+    <text x="82" y="403" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="17">Process modeling</text>
+    <text x="82" y="428" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="17">Life cycle assessment</text>
+    <text x="82" y="453" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="17">Techno-economic analysis</text>
+  </g>
+  <use href="#sky-motif-surveillance" x="54" y="91" width="22" height="22" />
+  <use href="#sky-motif-resource-recovery" x="54" y="289" width="22" height="22" />
+</svg>

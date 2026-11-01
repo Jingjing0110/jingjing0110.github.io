@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <symbol id="research" viewBox="0 0 48 48">
+      <g fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M9 24h10a5 5 0 0 0 5-5v-5a5 5 0 0 1 5-5h8M19 24a5 5 0 0 1 5 5v5a5 5 0 0 0 5 5h8"/>
+        <circle cx="7" cy="24" r="3"/><circle cx="40" cy="9" r="3"/><circle cx="40" cy="39" r="3"/>
+      </g>
+    </symbol>
+    <symbol id="publications" viewBox="0 0 48 48">
+      <g fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M11 6h19l9 9v27H11V6Zm19 0v10h9M18 24h14M18 30h14M18 36h9"/>
+      </g>
+    </symbol>
+    <symbol id="teaching" viewBox="0 0 48 48">
+      <g fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M24 13c-5-5-12-5-19-3v28c7-2 14-2 19 3 5-5 12-5 19-3V10c-7-2-14-2-19 3v28M11 17c3-1 5 0 8 1M11 24c3-1 5 0 8 1M29 18c3-1 5-2 8-1M29 25c3-1 5-2 8-1"/>
+      </g>
+    </symbol>
+    <symbol id="presentations" viewBox="0 0 48 48">
+      <g fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M5 8h38v25H5V8Zm19 25v10m-9 0 9-10 9 10M11 24l7-6 7 3 11-8M31 13h5v5"/>
+      </g>
+    </symbol>
+    <symbol id="cv" viewBox="0 0 48 48">
+      <g fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+        <rect x="10" y="5" width="28" height="38" rx="2"/><circle cx="24" cy="15" r="4"/>
+        <path d="M17 26c0-4 3-6 7-6s7 2 7 6M17 32h14M17 37h10"/>
+      </g>
+    </symbol>
+  </defs>
+</svg>

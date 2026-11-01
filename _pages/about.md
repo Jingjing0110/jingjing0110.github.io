@@ -1,36 +1,94 @@
 ---
+layout: home
 permalink: /
 title: "Wastewater for Health and Sustainability"
+excerpt: "Jingjing Wu studies wastewater surveillance for public health and sustainable resource recovery."
 author_profile: true
-redirect_from: 
+redirect_from:
   - /about/
   - /about.html
 ---
 
-Hello! I am a postdoctoral researcher in Civil and Environmental Engineering at Rice University, working with Dr. Lauren Stadler. Before joining the [Stadler’s Lab](https://stadler.rice.edu/){:target="_blank"}, I earned my Ph.D. and M.S. in Civil and Environmental Engineering from Clarkson University under the supervision of Dr. Shane Rogers and a B.S. in Biological Science from Ocean University of China. I am dedicated to advancing wastewater as a resource for public health and environmental sustainability. My research explores innovative strategies to reduce the economic, environmental, and health burdens associated with wastewater while enhancing its value as a source of information and nutrients.
+<section class="introduction" aria-labelledby="page-title">
+  <p class="eyebrow"><span aria-hidden="true"></span> Environmental engineering · Public health</p>
+  <h1 id="page-title">Wastewater for<br>
+<em>health</em> and<br>
+<em>sustainability</em><span class="title-period">.</span></h1>
+  <p class="intro-lead">I study how wastewater can inform public health decisions and support sustainable resource recovery.</p>
+  <p class="intro-detail">My work connects molecular methods for pathogen detection with engineering approaches to wastewater treatment and nutrient management, turning what we discard into information and resources.</p>
+  <div class="intro-links">
+    <a class="primary-link" href="{{ "/portfolio/" | relative_url }}">Explore my research <span aria-hidden="true">↗</span></a>
+    <a class="text-link" href="{{ "/files/Jingjing_Wu_CV.pdf" | relative_url }}">Download CV <span class="file-format">PDF</span> <span aria-hidden="true">↓</span></a>
+  </div>
+  <svg class="intro-drawing" viewBox="0 45 174 45" aria-hidden="true" focusable="false">
+    <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M7 67c17-6 33-6 50 0s33 6 50 0 33-6 50 0" stroke="#a9bdc7" stroke-width="1.25"/>
+      <path d="M15 80c13-4 26-4 39 0s26 4 39 0 26-4 39 0" stroke="#bdcbd1" stroke-width="1.1"/>
+      <path d="M73 51c7-2 13-2 20 0" stroke="#c1b8d0" stroke-width="1"/>
+    </g>
+  </svg>
+</section>
 
-![public impact](/images/Research_interest_outline.jpg)
+<section class="about-section home-section" aria-labelledby="about-heading">
+  <svg class="section-current" viewBox="0 0 120 28" aria-hidden="true" focusable="false">
+    <g fill="none" stroke-linecap="round" stroke-width="1.15">
+      <path d="M3 13c15-6 27-6 42 0s27 6 42 0 21-5 30-2" stroke="#b8ccd6"/>
+      <path d="M28 21c10-3 18-3 28 0s18 3 28 0 19-4 29-1" stroke="#cbc2d9"/>
+      <path d="M10 5c6-2 11-2 17 0" stroke="#c6d5d0"/>
+    </g>
+  </svg>
+  <div class="section-heading">
+    <span class="section-number" aria-hidden="true">01 /</span>
+    <h2 id="about-heading">A little about me</h2>
+  </div>
+  <p>I am a postdoctoral researcher in Civil and Environmental Engineering at Rice University, working with Dr. Lauren Stadler in the <a href="https://stadler.rice.edu/">Stadler Lab</a>. I earned my Ph.D. and M.S. in Civil and Environmental Engineering at Clarkson University with Dr. Shane Rogers, and my B.S. in Biological Science at Ocean University of China.</p>
+  <p>My doctoral research investigated bioextractive macroalgae aquaculture as an alternative to advanced wastewater treatment. My current work focuses on improving molecular approaches for microbial detection in wastewater.</p>
+</section>
 
-Broadly, my work covers wastewater treatment, wastewater-based epidemiology, resource recovery, and sustainable nutrient management. My doctoral research demonstrated the potential of bioextractive macroalgae aquaculture as an alternative to advanced wastewater treatment processes, and my current projects focus on optimizing molecular diagnostic approaches for microbial detection in wastewater.
+<section class="research-overview home-section" aria-labelledby="research-heading">
+  <div class="section-heading">
+    <span class="section-number" aria-hidden="true">02 /</span>
+    <h2 id="research-heading">Exploring wastewater’s possibilities</h2>
+  </div>
+  <p class="section-intro">One resource, two connected perspectives.</p>
+  <figure class="overview-figure">
+    <picture>
+      <source media="(max-width: 1000px)" srcset="{{ "/images/sky-research-overview-mobile.svg" | relative_url }}" width="390" height="490">
+      <img src="{{ "/images/sky-research-overview.svg" | relative_url }}" width="840" height="350" alt="Wastewater connects two research paths: health information through pathogen detection, assay validation, and microbial analysis; and sustainable resource recovery through process modeling, life cycle assessment, and techno-economic analysis.">
+    </picture>
+    <figcaption>Wastewater as a source of information for public health and resources for a more sustainable future.</figcaption>
+  </figure>
+  <div class="research-themes">
+    <article class="research-theme">
+      <p class="theme-label">Information → Public health</p>
+      <div class="theme-heading">
+        <svg class="theme-icon" viewBox="0 0 64 64" aria-hidden="true" focusable="false"><use href="#sky-motif-surveillance"/></svg>
+        <h3>Wastewater surveillance</h3>
+      </div>
+      <p>I develop and validate molecular methods to detect pathogens in wastewater, from assay design and laboratory validation to sequencing-based approaches that help track community disease trends.</p>
+      <a class="theme-link" href="{{ "/portfolio/" | relative_url }}">Explore this research <span aria-hidden="true">↗</span></a>
+    </article>
+    <article class="research-theme">
+      <p class="theme-label">Resources → Sustainability</p>
+      <div class="theme-heading">
+        <svg class="theme-icon" viewBox="0 0 64 64" aria-hidden="true" focusable="false"><use href="#sky-motif-resource-recovery"/></svg>
+        <h3>Sustainable resource recovery</h3>
+      </div>
+      <p>I evaluate bioextractive macroalgae aquaculture and wastewater treatment strategies using process modeling, life cycle assessment, and techno-economic analysis to advance sustainable nutrient management.</p>
+      <a class="theme-link" href="{{ "/portfolio/" | relative_url }}">Explore this research <span aria-hidden="true">↗</span></a>
+    </article>
+  </div>
+</section>
 
-Beyond research, I am passionate about teaching, mentoring, and community engagement, integrating science and service to create a broader public impact.
-
-
-
-
-<!--
-This is the front page of a website that is powered by the [Academic Pages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the repository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. Incidentally, these same features make it a great template for anyone that needs to show off a professional template!
-
-You can fork [this template](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and Markdown files, add your own PDFs and other content, and have your own site for free, with no ads!
-
-A data-driven personal website
-======
-Like many other Jekyll-based GitHub Pages templates, Academic Pages makes you separate the website's content from its form. The content & metadata of your website are in structured Markdown files, while various other files constitute the theme, specifying how to transform that content & metadata into HTML pages. You keep these various Markdown (.md), YAML (.yml), HTML, and CSS files in a public GitHub repository. Each time you commit and push an update to the repository, the [GitHub pages](https://pages.github.com/) service creates static HTML pages based on these files, which are hosted on GitHub's servers free of charge.
-
-Many of the features of dynamic content management systems (like Wordpress) can be achieved in this fashion, using a fraction of the computational resources and with far less vulnerability to hacking and DDoSing. You can also modify the theme to your heart's content without touching the content of your site. If you get to a point where you've broken something in Jekyll/HTML/CSS beyond repair, your Markdown files describing your talks, publications, etc. are safe. You can rollback the changes or even delete the repository and start over - just be sure to save the Markdown files! You can also write scripts that process the structured data on the site, such as [this one](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb) that analyzes metadata in pages about talks to display [a map of every location you've given a talk](https://academicpages.github.io/talkmap.html).
-
-For those users that need more advanced functionality, the template also supports the following popular tools:
-- [MathJax](https://www.mathjax.org/) for mathematical equations
-- [Mermaid](https://mermaid.js.org/) for diagraming
-- [Plotly](https://plotly.com/javascript/) for plotting
--->
+<section class="teaching-section home-section" aria-labelledby="teaching-heading">
+  <div class="section-heading">
+    <span class="section-number" aria-hidden="true">03 /</span>
+    <h2 id="teaching-heading">Teaching, mentoring &amp; connecting</h2>
+  </div>
+  <p>I enjoy connecting environmental engineering concepts with practical problems, from hands-on wastewater process modeling to wastewater surveillance workshops for community college students.</p>
+  <p>I have mentored undergraduate researchers, honors students, and participants in NSF REU and RET programs. My community engagement has included COVID-19 surveillance and outreach on anaerobic digestion for small farms.</p>
+  <div class="section-links">
+    <a class="theme-link" href="{{ "/teaching/" | relative_url }}">Teaching experience <span aria-hidden="true">↗</span></a>
+    <a class="theme-link" href="{{ "/files/Jingjing_Wu_CV.pdf" | relative_url }}">Mentoring &amp; service in my CV <span aria-hidden="true">↗</span></a>
+  </div>
+</section>

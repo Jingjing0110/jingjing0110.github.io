@@ -1,0 +1,48 @@
+EDITABLE RESEARCH FIGURES — JINGJING WU
+
+Wastewater_Surveillance_Editable.pptx
+  One slide, matching images/research-surveillance.svg (1040 × 550).
+
+Resource_Recovery_Editable.pptx
+  One slide, matching images/research-resource-recovery.svg (1040 × 620).
+  Includes the coastal outfall pipe, macroalgae cultivation, and simplified
+  wastewater treatment tank icons.
+
+All visible text, lines, arrows, circles, and icons are editable PowerPoint
+objects. The slides do not contain a flattened image of either figure.
+
+QUICK EDITING
+
+• Click a label to edit its text. Some labels and icon components are grouped;
+  click again inside the group, or use Arrange > Ungroup when needed.
+• Home > Arrange > Selection Pane lists named objects and groups. The recovery
+  icons are named recovery-outfall-icon, recovery-cultivation-icon, and
+  recovery-treatment-icon.
+• Use Shape Format > Shape Fill / Shape Outline to adjust colors or line weight.
+• For a curved icon path, use Shape Format > Edit Shape > Edit Points. Curves are
+  native editable vector paths, not pictures.
+• Use Align / Distribute to keep related objects tidy after moving them.
+• Georgia headings and Segoe UI labels follow the website figure. If either
+  font is unavailable, PowerPoint may substitute a local font; install the font
+  or choose another before making final spacing adjustments.
+
+USING AN EDITED FIGURE ON THE WEBSITE
+
+Keep a copy of your edited PPTX. The website displays separate SVG files; edits
+inside PowerPoint do not automatically change those SVGs. In desktop PowerPoint,
+select the figure objects and use Save as Picture > SVG to export an updated
+vector figure. Preview the exported SVG before replacing the corresponding
+website asset. The existing mobile SVG has a separate narrow-screen layout.
+
+FOR REBUILDING THE ORIGINAL EDITABLE DECKS
+
+scripts/svg_to_editable_pptx.py recreates both decks from the desktop source SVGs.
+It uses python-pptx, svgpathtools, and Pillow. In the current development setup:
+
+  PYTHONPATH=/tmp/jingjing-ppt-tools /home/jingj/miniforge3/bin/python \
+    scripts/svg_to_editable_pptx.py
+
+This overwrites these two PPTX files with the current SVG versions, so save any
+manual PowerPoint edits under another filename first. The converter checks that
+all scientific text is preserved, text boxes fit within each slide, the files
+reopen successfully, and no embedded image fallback is present.

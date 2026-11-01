@@ -7,6 +7,6 @@ author_profile: true
 
 {% include base_path %}
 
-{% for post in site.teaching reversed %}
-  {% include archive-single.html %}
+{% for course in site.data.teaching_courses %}
+  {% include teaching-course.html course=course %}
 {% endfor %}

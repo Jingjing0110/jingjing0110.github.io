@@ -1,0 +1,68 @@
+SKY & WATER WEBSITE UPDATE
+
+Preview
+  Open local/homepage-preview/site/index.html directly in a browser.
+  Its navigation links open the updated local pages. compare.html also links here.
+  local/ is excluded from Git and Jekyll; it is a review copy, not site source.
+
+Shared appearance
+  assets/css/sky-water.css       Palette, typography, spacing, responsive layouts.
+  _includes/masthead.html        Shared navigation.
+  _includes/sky-water-profile.html  Shared sidebar profile.
+  _includes/footer.html          Water curves, small motifs and footer text.
+  _includes/sky-water-motifs.html Shared original vector motifs.
+  assets/js/sky-water.js         Theme switch; optional Markdown chart support.
+  _config.yml                   Name, role, affiliation and profile links.
+
+Content
+  _pages/about.md                Homepage, including the two research themes.
+  _pages/portfolio.html          Research introduction and collection listing.
+  _pages/publications.html, talks.html, teaching.html, cv.md
+                                Main academic pages.
+  _portfolio/, _publications/, _talks/, _teaching/
+                                Research descriptions and individual records.
+  Homepage sections follow the hero: 01 A little about me,
+  02 Exploring wastewater’s possibilities, and
+  03 Teaching, mentoring & connecting.
+  Existing collection/detail pages inherit the same shared style and footer.
+  CV and Teaching group repeated courses using _data/teaching_courses.yml and
+  course_id metadata in _teaching/. The shared teaching-course.html include
+  preserves terms, roles, full Teaching descriptions, and selected CV highlights.
+  Original course detail pages remain available at their existing URLs.
+  Verified terms and highlights come from files/Jingjing_Wu_CV.pdf.
+  CV download links use that updated PDF; the contact email matches it.
+
+Figures
+  images/research-surveillance.svg
+  images/research-resource-recovery.svg
+  Matching -mobile.svg files use a separate layout for narrower screens.
+  Desktop/mobiles display automatically through _includes/research-figure.html.
+  The second figure uses an outfall pipe, longline cultivation, and a tank-only
+  clarifier icon. Its stage labels are Nutrient challenge, Bioextraction,
+  Treatment, and Decision support; the two assessment branches stay parallel.
+  The title decoration contains only curves; section/footer motifs are retained.
+
+Editable PowerPoint files
+  files/Wastewater_Surveillance_Editable.pptx
+  files/Resource_Recovery_Editable.pptx
+  Both contain native editable text and vector objects, not slide-sized pictures.
+  See files/Research_Figures_Editing_Notes.txt for editing and SVG export steps.
+  PowerPoint edits do not automatically replace the website SVG files.
+
+Updating GitHub
+  Copy the edited Jekyll source files into your existing repository, retaining
+  their paths. Include the shared _includes/ and _layouts/ files, new CSS/JS,
+  source pages, _portfolio/ figure metadata, images/, files/, and the existing
+  research-figure Sass import. Review the diff, commit, and push as usual.
+  No website has been published or pushed during this update.
+  The existing GitHub Pages workflow and main navigation paths are retained.
+
+Validation
+  Full production build passed with Jekyll 3.10, Liquid 4 and Sass 3.7.
+  Main pages checked at desktop, tablet, 390px and 320px viewport widths.
+  Main and collection routes checked for shared style/footer and local links.
+  PowerPoint packages checked for native objects, scientific text and bounds.
+
+Regenerating a portable review copy after a normal local Jekyll build
+  bundle exec jekyll build
+  python3 scripts/build_portable_preview.py _site
